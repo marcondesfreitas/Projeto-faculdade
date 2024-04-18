@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('../imagens/login.svg');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+.input{
+    width: 90%;
+    margin-top: 20px;
+    height: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+    transition: 1s;
+}
+.input:hover{
+    box-shadow: #825fc9 0px 0px 15px 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .fild{
+        background-color: white;
+        text-align: center ;
+        border: none;
+        border-radius: 10px;
+        margin-top: 2%;
+        position: relative;
+        left: 37%;
+        width: 20%;
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fild{
+        text-align: center ;
+        border: none;
+        border-radius: 10px;
+        margin-top: 23%;
+        position: relative;
+        left: 23%;
+        width: 50vw;
+        height: 70vh;
+        box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+    }
+
+    .input{
+        width: 80%;
+        margin-top: 20px;
+        height: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+    }
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#btn {
+    text-align: center;
+    margin-top: 7%;
+    cursor: pointer;
+    border: none;
+    background-color: #341671;
+    width: 80%;
+    height: 35px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+#btn:hover{
+    box-shadow: #825fc9 0px 0px 15px 5px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 7%;
+    cursor: pointer;
+    border: none;
+    background-color: #341671;
+    width: 80%;
+    height: 35px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    box-shadow: #825fc9 0px 0px 15px 5px;
+}
+
+.esqueceu{
+    position: relative;
+    top: 7%;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(43, 43, 255);
+}
+
+.linha{
+    height: 0.5px;
+    width: 80%;
+    background-color: #341671;
+    border-color: #341671;
+}

@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('../imagens/login.svg');
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.field {
+  height: 660px;
+  width: 380px;
+  margin-top: 1%;
+  margin-left: 37%;
+  border-radius: 10px;
+  background-color: #FFF;
+  border: none;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.tela {
+  text-align: center;
+}
+
+.titulo {
+  width: 60%;
+  margin-top: 30px;
+  height: 9px;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+  transition: 0.5s;
+
+}
+
+.titulo:hover{
+  box-shadow: #825fc9 0px 0px 15px 5px;
+}
+
+.titulo::placeholder {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+.descricao {
+  width: 60%;
+  margin-top: 20px;
+  height: 65px;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+  transition: 0.5s;
+
+}
+
+.descricao:hover{
+  box-shadow: #825fc9 0px 0px 15px 5px;
+}
+
+.descricao::placeholder {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+.autor {
+  width: 60%;
+  margin-top: 20px;
+  height: 9px;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+  transition: 0.5s;
+
+}
+
+.autor:hover{
+  box-shadow: #825fc9 0px 0px 15px 5px;
+}
+
+.autor::placeholder {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+.link {
+  width: 60%;
+  margin-top: 20px;
+  height: 9px;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+  transition: 0.5s;
+}
+
+.link:hover{
+  box-shadow: #825fc9 0px 0px 15px 5px;
+}
+
+.link::placeholder {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  width: 10px;
+  height: 10px;
+  color: #FFF;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add {
+  margin-top: 5%;
+  width: 50px;
+}
+
+.data {
+  width: 65%;
+  appearance: none;
+  border: rgb(107, 107, 107) 1px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+}
+
+.btn {
+  text-align: center;
+    margin-top: 3%;
+    cursor: pointer;
+    border: none;
+    background-color: #341671;
+    width: 80%;
+    height: 35px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.btn:hover {
+  box-shadow: #825fc9 0px 0px 15px 5px;
+}
+
+select {
+  box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+  margin-top: 5%;
+  appearance: none;
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 10px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px;
+  width: 68%;
+  position: relative;
+  background-color: #ffffff;
+}
+
+/* Estilo para quando o elemento select estiver em foco */
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ffffff;
+}
+
+/* Estilo para a seta do select */
+select::-ms-expand {
+  display: none;
+}
+
+/* Estilo para a seta do select em navegadores Webkit */
+select::-webkit-select-placeholder {
+  color: #777;
+}
+
+/* Estilo para a seta do select em navegadores Mozilla Firefox */
+select::-moz-placeholder {
+  color: #777;
+}
+
+/* Estilo para a seta do select em navegadores Microsoft Edge */
+select::-ms-input-placeholder {
+  color: #777;
+}
+
+/* Estilo para a seta do select em navegadores Microsoft Edge Chromium */
+select::-ms-input-placeholder {
+  color: #777;
+}
+
+/* Estilo para a seta do select em navegadores Google Chrome */
+select::-webkit-outer-spin-button,
+select::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* Estilo para o hover do select */
+select:hover {
+  background-color: #e8e8e8;
+}
+
+/* Estilo para o select quando está desabilitado */
+select:disabled {
+  background-color: #f0f0f0;
+  color: #777;
+  cursor: not-allowed;
+}
+
+.seta_img {
+  z-index: 4;
+  margin-left: -3%;
+  position: absolute;
+  margin-top: 2.5%;
+  width: 1.2%;
+  opacity: 80%;
+  transition: 0.5s all;
+}
+
+.texto {
+  font-family: 'Open Sans', sans-serif;
+}

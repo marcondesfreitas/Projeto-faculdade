@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-image: url('../imagens/loginback.jpg');
+    background-repeat:space;
+    background-size: 100%;
+    background-attachment:scroll;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.field {
+    height: 70vh;
+    width: 60vh;
+    position: relative;
+    margin-top: 7%;
+    left: 37%;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: none;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.tela {
+    text-align: center;
+}
+
+.nome {
+    width: 60%;
+    margin-top: 30px;
+    height: 9px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+}
+
+.nome::placeholder {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+
+.cargo {
+    width: 60%;
+    margin-top: 20px;
+    height: 9px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+}
+
+.cargo::placeholder {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.link {
+    width: 60%;
+    margin-top: 20px;
+    height: 9px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: rgb(212, 212, 212) 0px 0px 8px 2px;
+}
+
+.link::placeholder {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    width: 10px;
+    height: 10px;
+    color: #FFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.add {
+    width: 50px;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(181, 132, 226);
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    color: #FFF;
+}
+p{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}

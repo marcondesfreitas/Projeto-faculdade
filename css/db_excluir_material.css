@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../imagens/loginback.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    margin-left: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 0, 0);
+}
+
+.painel{
+    border: none;
+    margin-top: 20px;
+    position: relative;
+    left: 15%;
+}
+
+.botoes{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.ex {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(115, 25, 199);
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.ex:hover{
+    box-shadow: rgb(124, 43, 255) 0px 0px 10px 5px;
+}
+
+.vl {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(115, 25, 199);
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.vl:hover{
+    box-shadow: rgb(124, 43, 255) 0px 0px 10px 5px;
+}
+
+.titlulo{
+    margin-left: 90%;
+    display: inline;
+    position: absolute;
+    width: 100%;
+}
+
+h3{
+    font-size: 1.3em;
+    font-family: 'Open Sans', sans-serif;   
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 30%;
+}
+
+h4{
+    position: relative;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#apagar{
+    position: relative;
+    left: 43%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

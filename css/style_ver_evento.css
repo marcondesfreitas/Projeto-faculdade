@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(173, 173, 173);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #422680;
+    border-radius: 30px;
+
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+}
+.menu ul li {
+    display: inline;
+    float: right;
+    transition: 1s;
+}
+
+.menu ul li a:hover {
+    background-color: #682b60;
+}
+
+.menu ul li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.215vw;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 1.05vw;
+    padding-right: 1.05vw;
+    transition: 1s background;
+}
+ul h1 {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 27px;
+    display: inline;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 14px;
+}
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+    }
+    header{
+        height: 50px;
+        width: 100vw;
+        position: fixed;
+        z-index: 3;
+        font-family: 'Open Sans', sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        overflow-x: hidden;
+    }
+    .fundo{
+        position: fixed;
+        margin-bottom: auto;
+        width: 130vw;
+        left: -30vw;
+        top: 20px;
+        overflow: hidden;
+    }
+    article{
+        position: relative;
+        z-index: 2;
+        font-family: 'Open Sans', sans-serif;   
+        background-color: white;
+        width: 100vw;
+        top: 50vw;
+        height: auto;
+        padding-bottom: 10%;
+        overflow: hidden;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        list-style: none;
+        padding: 0;
+        background-color: #341671;
+        height: 50px;
+        width: 100vw;
+    }
+    .subl{
+        position: absolute;
+        z-index: 4;
+        top: 27px;
+        width: 12%;
+        left: 89.65%;
+        height: 3px;
+        background-color: #AE2D68;
+        border: 0px solid white;
+        transition: 0.5s all;
+        overflow-x: hidden;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    body{
+        overflow-x: hidden;
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+    }
+    header{
+        height: 50px;
+        width: 100vw;
+        position: fixed;
+        z-index: 3;
+        font-family: 'Open Sans', sans-serif;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0 20px;
+    }
+    .fundo{
+        position: fixed;
+        margin-bottom: auto;
+        z-index: 1;
+        width: 100vw;
+    }
+    article{
+        position: relative;
+        z-index: 2;
+        font-family: 'Open Sans', sans-serif;   
+        background-color: white;
+        top: 28vw;
+        width: 100vw;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        list-style: none;
+        padding: 0;
+        background-color: #341671;
+        height: 50px;
+        width: 100vw;
+    }
+    .subl{
+        position: absolute;
+        z-index: 4;
+        top: 30.5px;
+        width: 6.6vw;
+        left: 83vw;
+        height: 3px;
+        background-color: #AE2D68;
+        border: 0px solid white;
+        transition: 0.5s all;
+    }
+}
+.tit{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    top: 10px;
+    background-color: white;
+}
+#tit_img{
+    width: 100%;
+}
+
+/*Hamburguer*/
+.menu ul li {
+    display: inline;
+    float: right;
+    transition: 1s;
+}
+
+.menu ul li a:hover {
+    background-color: #682b60;
+}
+
+.menu ul li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.215vw;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 1.05vw;
+    padding-right: 1.05vw;
+    transition: 1s background;
+}
+
+
+ul h1 {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 27px;
+    display: inline;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 14px;
+}
+
+#btn_hamburguer{
+    background: none;
+    border: none;
+    height: 9%;
+    width: 9%;
+    position: relative;
+    z-index: 5;
+    margin-left: 91%;
+    margin-top: 10px;
+}
+
+#img_hamburguer{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 5;
+}
+
+#lis{
+    position: relative;
+    top: 10vh;
+}
+#lis li{
+    margin-top: 30px;
+}
+
+#img_hamburguer2{
+    width: 100%;
+    height: 100%;
+}
+
+#menu__{
+    display: none;
+    position: relative;
+    background-color: #280659;
+    width: 65%;
+    left: 40vw;
+    bottom: 1.1vh;
+    height: 102vh;
+}
+
+
+
+#botao_desaparecer{
+    position: absolute;
+    background: none;
+    border: none;
+    height: 18%;
+    width: 18%;
+    top: -29vh;
+    margin-top: 10px;
+    right: 13%;
+}
+.links{
+    width: 60vw;
+    position: relative;
+    margin-top: 70%;
+    text-align: center;
+}
+
+#img_hamburguer2{
+    width: 100%;
+    height: 100%;
+}
+
+#menu_mobile ul li{
+    list-style: none;
+}
+
+#menu_mobile ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
+@keyframes aparecer2 {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+  
+  @keyframes desaparecer2 {
+    from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(100%);
+      }
+  } 
+
+@keyframes desaparecer3{
+    from{
+        opacity: 100%;
+    }to{
+        opacity: 0%;
+    }
+}
+
+@keyframes aparecer3{
+    from{
+        opacity: 0%;
+    }to{
+        opacity: 100%;
+    }
+}
+
+#lishamburguer{
+    list-style: none;
+    float: right;
+}
+
+#lishamburguer li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.21vw;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 1.05vw;
+    padding-right: 1.05vw;
+    transition: 1s background;
+}
+
+#menu_tudo{
+    display: none;
+}
+
+#uls_mobile li{
+    list-style: none;
+}
+
+#uls_mobile li a{
+    text-decoration: none;
+    color: white;
+} 
+
+#img_fechar{
+    width: 100%;
+    height: 100%;
+}
+  
+#botao_fechar{
+    background: none;
+    width: 10%;
+}
+
+/*Final do Hambúrguer*/
+ 
+.ft1 {
+    position: relative;
+    width: 100%;
+}
+.logo {
+    display: inline;
+    width: 5%;
+    float: left;
+    padding: 10px;
+    margin-top: -17px;
+    margin-left: 1vw;
+    height: 80px;
+    width: 80px;
+}
+h1{
+    font-size: 2em;
+    color: #682b60;
+}
+
+@media screen and (max-width: 768px) {
+    .dataevt{
+        position: relative;
+        top: 10px;
+        font-size: 0.6em;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .tit h1{
+        margin-bottom: 10px;
+        color: black;
+        font-size: 1.8em;
+        font-family: 'Open Sans', sans-serif;  
+    }
+    #margem{
+        margin-right: 8%;
+    }  
+    .texto{
+        position: relative;
+        width: 75%;
+        text-align: left;
+        left: 15%;
+        margin-top: 50px;
+        font-size: 0.7em;
+        margin-bottom: 30px;
+        text-indent: 8%;
+    }
+    .imgs{
+        position: relative;
+        width: 80%;
+        height: 20%;
+        top: 5%;
+        left: 10%;
+        margin-bottom: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .carousel-item img {
+        width: 100vw;
+        height: 20vh;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .dataevt{
+        position: relative;
+        top: 10px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .tit h1{
+        margin-bottom: 5px;
+        color: black;
+        font-size: 2.8em;
+        font-family: 'Open Sans', sans-serif;  
+    }
+    #margem{
+        margin-right: 8%;
+    }  
+    .texto{
+        position: relative;
+        width: 75%;
+        text-align: left;
+        left: 15%;
+        margin-top: 50px;
+        font-size: 1.1em;
+        margin-bottom: 30px;
+        text-indent: 8%;
+    }
+    .imgs{
+        position: relative;
+        width: 80%;
+        height: 20%;
+        top: 5%;
+        left: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .carousel-item img {
+        width: 100vw;
+        height: 60vh;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}
+
+
+
+/*Footer*/
+@media screen and (max-width: 768px){
+    .footer{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #280659;
+        color: white;
+        text-align: center;
+        height: auto;
+        margin-top: 30%;
+    }  
+    .coluna2{
+        position: relative;
+        height: 80px;
+        width: 80px;
+        left: 2%;
+    }
+    .coluna2 img{
+        height: 80px;
+        width: 80px;
+    }
+    .info{
+        margin-left: 6vw;
+        margin-top: 2%;
+        font-size: 0.4em;
+        margin-right: 1%;
+    }
+    .info h3{
+        margin-bottom: 10px;
+        font-size: 2.5vw;
+    }
+    #redes img{
+        height: 22px;
+        width: 22px;
+    }
+    #hr2{
+        position: relative;
+        transform: rotate(90deg);
+        bottom: 57%;
+        left: 60%;
+        width: 85%;
+        background-color: #ffffff;
+    }
+    #vmt{
+        position: relative;
+        font-size: 0.6em;
+    }
+    .info p{
+        text-align: left;
+        font-size: 1.5vw;
+        margin: 0;
+    }
+    .afastar{
+        position: relative;
+        height: 10px;
+        margin-bottom: 4vh;
+    }
+}
+
+@media screen and (min-width: 768px){   
+    .footer{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #280659;
+        color: white;
+        text-align: center;
+        height: auto;
+    }    
+    .coluna2{
+        position: relative;
+        height: 120px;
+        width: 120px;
+        left: 2%;
+    }
+    .coluna2 img{
+        height: 120px;
+        width: 120px;
+    }
+    .info{
+        margin-left: 14%;
+        margin-top: 0.5%;
+    }
+    .info h3{
+        margin-bottom: 10px;
+    }   
+    #redes img{
+        height: 50px;
+        width: 50px;
+    }
+    #hr2{
+        position: relative;
+        transform: rotate(90deg);
+        bottom: 50%;
+        background-color: #ffffff;
+        left: 100%;
+        width: 85%;
+    }
+    .info p{
+        text-align: left;
+        font-size: 0.8em;
+        margin: 0;
+    }
+}
+.fim{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.coluna3{
+    float: right;
+    margin-right: 20px;
+}
+
+
+#r_img{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.linhafooter{
+    width: 100%;
+}
+#container{
+    position: relative;
+    min-height: 100vh;
+}
+
+#lis{
+    position: relative;
+    top: 10vh;
+}
+
+#lis li{
+    margin-top: 30px;
+}
+
+.links{
+    width: 60vw;
+    position: relative;
+    margin-top: 70%;
+    text-align: center;
+}
+
+#botao_desaparecer{
+    position: absolute;
+    background: none;
+    border: none;
+    height: 18%;
+    width: 18%;
+    top: -29vh;
+    right: 13%;
+}
+
+#img_hamburguer2{
+    width: 100%;
+    height: 100%;
+}
+
+#btn_hamburguer1{
+    background: none;
+    border: none;
+    height: 9%;
+    width: 9%;
+    z-index: 220;
+    margin-left: 91%;
+}
+
+#img_hamburguer{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 600px){
+    /* cllr */
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #341671;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        align-items: center;
+    }
+}
+
+@media (min-width: 600px){
+    /* pc */
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url('../imagens/login.svg');
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        align-items: center;
+    }
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5%;
+
+}
+
+#img{
+    margin-top: 5%;
+}
+
+#form{
+    margin-top: 3%;
+}
+
+.btn {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #bd0707;
+    width: 20%;
+    height: 35px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.btn1 {
+    margin-top: 1%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #16712d;
+    width: 20%;
+    height: 35px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.btn1:hover{
+    background-color: black;
+
+}
+
+.material{
+    text-align: center;
+}
+
+#div_img{
+    width:250px;
+    height:300px;
+}
+
+#img{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
